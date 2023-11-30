@@ -17,4 +17,6 @@ age  INTEGER,
 view INTEGER,
 bitday DATE
 )''')
+for result in cursor:
+    print(result)
 db.close()
